@@ -30,3 +30,4 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     - run: npm test
+    - run: echo "I am done with the test cases, I am going to sleep now, bye bye"
